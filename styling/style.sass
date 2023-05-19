@@ -1,0 +1,26 @@
+@import 'variables'
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap')
+
+html 
+    height: 100%
+    min-height: 100%
+body 
+    font-size: 100%
+    font-family: 'Noto Sans JP', sans-serif
+    padding-bottom: #{$footer-bottom-position + $footer-font-size + $footer-padding + 1}px
+    background-color: #{$background-colour-main}
+    color: #{$generic-text-colour}
+h1
+    text-align: center
+footer
+    position: fixed
+    bottom: #{$footer-bottom-position}px
+    font-size: #{$footer-font-size}px
+    padding-left: #{$footer-padding}px
+    padding-bottom: #{$footer-padding}px
+
+a
+    &:visited
+    &:link
+        color: #{$link-colour-default}
+  
